@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <title>Summary HTML Dasar</title>
+</head>
+<body>
+    <h1>Tutorial HTML Dasar Lengkap</h1>
+   
+    <!-- Akhirnya... Sebuah Halaman HTML Lengkap -->
+     <h2>1. Cara Membuat Paragraf di HTML (<code>p</code> tag)</h2>
+    <p>
+      Tag digunakan di HTML untuk membuat paragraf. Paragraf membantu mengorganisir teks menjadi blok-blok yang mudah dibaca oleh pengguna.
+    </p>
+    <p>Ini adalah paragraf pertama.</p>
+    <p>Ini adalah paragraf kedua.</p>
+    <p>Paragraf memberikan jarak antar <strong>blok teks.</strong></p>
+    <p><em>© 2025 Cara Membuat Paragraf di HTML</em></p>
+
+    <!-- tag link -->
+     <h2>2. Cara Membuat Judul / Heading di HTML</h2>
+      <p>
+        Tag digunakan di HTML untuk membuat judul utama.
+        Judul membantu memberikan struktur pada halaman dan menunjukkan informasi penting kepada pengguna.
+      </p>
+        <h1>Ini adalah Judul Utama</h1>
+        <h2>Ini adalah Sub Judul</h2>
+        <h3>Ini adalah Judul Tingkat Tiga</h3>
+
+    <!-- tag link -->
+      <h2>Cara Membuat Daftar/List di HTML (<code>ol</code>, <code>ul</code>, dan <code>li</code> tag)</h2>
+      <p>
+        Tag <code>&lt;ol&gt;</code> digunakan untuk membuat daftar berurutan (ordered list), tag <code>&lt;ul&gt;</code> untuk daftar tidak berurutan (unordered list), dan tag <code>&lt;li&gt;</code> digunakan untuk setiap item dalam daftar.
+      </p>
+        <h3>Contoh Daftar Tontonan Anime bulan Juni (Unordered List)</h3>
+        <ul>
+          <li>Wind Breaker</li>
+          <li>One Piece</li>
+          <li>Demon Slayer</li>
+        </ul>
+        <h3>Contoh Daftar Tontonan Anime bulan Juni (Ordered List)</h3>
+        <ol>
+          <li>Wind Breaker</li>
+          <li>One Piece</li>
+          <li>Demon Slayer</li>
+        </ol>
+
+    <!-- tag image -->
+      <h2>4. Cara Menambahkan Gambar di HTML (<code>img</code> tag)</h2>
+      <p>
+        Tag <code>&lt;img&gt;</code> digunakan untuk menambahkan gambar di halaman HTML. Atribut <code>src</code> menentukan alamat gambar, dan <code>alt</code> memberikan deskripsi alternatif jika gambar tidak dapat ditampilkan.
+      </p>
+      <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/120px-React-icon.svg.png"
+        alt="Icon React" 
+        height=200"
+        width="200"
+        />
+
+    <!-- tag link -->
+      <h2>5. Cara Membuat Link di HTML(<code>a</code> tag)</h2>
+        <p>
+          Tag <code>&lt;a&gt;</code> digunakan untuk membuat tautan (link) di HTML. Atribut href menentukan alamat tujuan tautan tersebut. Klik tautan untuk membuka halaman atau sumber lain.
+        </p>
+        <p>
+          Contoh link: 
+          <a href="https://www.google.com" target="_blank" rel="noopener" class="example-link">
+            Kunjungi Google
+          </a>
+        </p>
+
+    <!-- tag table-->
+      <h2>6. Cara Membuat Tabel di HTML (<code>table</code> tag)</h2>
+      <p>
+        Tag <code>&lt;table&gt;</code> digunakan untuk membuat tabel di HTML. Tabel terdiri dari baris <code>&lt;tr&gt;</code>, header kolom <code>&lt;th&gt;</code>, dan sel data <code>&lt;td&gt;</code>.
+      </p>
+      <table border=""1">
+          <tr>
+            <th>Nama</th>
+            <th>Usia</th>
+            <th>Kota</th>
+          </tr>
+          <tr>
+            <td>Kuroo</td>
+            <td>25</td>
+            <td>Jakarta</td>
+          </tr>
+          <tr>
+            <td>Oikawa</td>
+            <td>25</td>
+            <td>Bandung</td>
+          </tr>
+          <tr>
+            <td>Bokuto</td>
+            <td>25</td>
+            <td>Surabaya</td>
+          </tr>
+      </table>
+
+    <!-- tag coment -->
+      <h2>7. Cara Membuat Komentar di HTML</h2>
+      <!-- <p>Ini berada di dalam tag komentar, 
+              dan tidak akan tampil di browser</p>
+      <p>Ini juga tidak tampil di browser</p>
+        -->
+        <p>
+          Komentar di HTML digunakan untuk menyisipkan catatan atau penjelasan dalam kode yang tidak akan ditampilkan di browser.<br>
+          Komentar dapat membantu pengembang memahami kode dengan lebih baik.</br>
+        </p>
+        
+        <!--<p>Ini juga tidak tampil di browser dan kalimat diatas bukan komentar tapi akan tampil di browser</p> -->
+
+    <!--tag form-->
+      <h2>8. Cara Membuat Form di HTML (<code>form</code> tag)</h2>
+        <p>
+          Tag <code>&lt;form&gt;</code> digunakan untuk membuat form di HTML yang memungkinkan pengguna memasukkan data. Form biasanya memiliki elemen input, label, dan tombol submit.
+        </p>
+        <form action=" formulir.html" method="get">
+          Nama: <input type="text" name="nama" />
+          <br />
+          
+          Email: <input type="email" name="email" />
+          <br />
+          
+          Jenis Kelamin : 
+          <input type="radio" name="jenis_kelamin" value="laki-laki" checked /> Laki - Laki
+          <input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+          <br />
+          
+          Hobi: <input type="checkbox" name="hobi_nonton" /> Menonton 
+          <input type="checkbox" name="hobi_nulis" /> Menulis
+          <input type="checkbox" name="hobi_main" checked /> Bermain Game
+          <input type="checkbox" name="hobi_baca" /> Membaca
+          <br />
+          Asal Kota:
+          <select name="asal_kota" >
+            <option value="Kota Mamuju">Mamuju</option>
+            <option value="Kota Mamuju Tengah">Mamuju Tengah</option>
+            <option value="Kota Mamasa">Mamasa</option>
+            <option value="Kota Makassar">Makassar</option>
+            <option value="Kota Majene" selected>Majene</option>
+          </select>
+          <br />
+
+          <input type="submit" value="Kirim" >
+
+    </form>
+</body>
+</html>

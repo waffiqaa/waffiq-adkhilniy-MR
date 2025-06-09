@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <title>Belajar Membuat Form</title>
+</head>
+<body>
+    <h1>Cara Membuat Form di HTML (<code>form</code> tag)</h1>
+    <p>
+      Tag <code>&lt;form&gt;</code> digunakan untuk membuat form di HTML yang memungkinkan pengguna memasukkan data. Form biasanya memiliki elemen input, label, dan tombol submit.
+    </p>
+    <form action=" formulir.html" method="get">
+      Nama: <input type="text" name="nama" />
+      <br />
+      
+      Email: <input type="email" name="email" />
+      <br />
+      
+      Jenis Kelamin : 
+      <input type="radio" name="jenis_kelamin" value="laki-laki" checked /> Laki - Laki
+      <input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+      <br />
+      
+      Hobi: <input type="checkbox" name="hobi_nonton" /> Menonton 
+      <input type="checkbox" name="hobi_nulis" /> Menulis
+      <input type="checkbox" name="hobi_main" checked /> Bermain Game
+      <input type="checkbox" name="hobi_baca" /> Membaca
+      <br />
+      Asal Kota:
+      <select name="asal_kota" >
+        <option value="Kota Mamuju">Mamuju</option>
+        <option value="Kota Mamuju Tengah">Mamuju Tengah</option>
+        <option value="Kota Mamasa">Mamasa</option>
+        <option value="Kota Makassar">Makassar</option>
+        <option value="Kota Majene" selected>Majene</option>
+      </select>
+      <br />
+
+      <input type="submit" value="Kirim" >
+
+</form>
+</body>
+</html>
